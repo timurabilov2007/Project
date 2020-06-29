@@ -9,8 +9,15 @@ I was import for first class main activity java border ,layout java gridlayout, 
 I have 16 buttons 10 of them are numbers and other is a arifmetics  evaluationsvaluations second with name p2.
 so for numbers I was making 1 panel with nape p1 and for evaluations p2
 and i was importing borde layout to  add panel 1 with panel 2.
+this is a code for every button 
+JButton button0 = new JButton("0");
+p1.add(button1);
+button0.addActionListener(calculatorEngine);
+
 so second class is a drawing pad that is mouse event like clicking button
 I import a java ActionEvent, java ActionListener, Java MouseEvent and Java MouseMotionListener
+
+
 Third class is a like engine
 in this class i was importing a java ActionEvent and java ActionListener.
 so this class is making all arifmetics evens like calculations.
@@ -28,4 +35,4 @@ else if (src == parent.buttonMinus) {
 				parent.displayField.setText("" + currentResult);
 }
 so this was a code for every actions of actions
-submit 50
+

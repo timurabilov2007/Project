@@ -35,4 +35,4 @@ else if (src == parent.buttonMinus) {
 				parent.displayField.setText("" + currentResult);
 }
 so this was a code for every actions of actions
-
+This was cs 50
